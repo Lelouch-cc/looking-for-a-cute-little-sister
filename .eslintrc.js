@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"root": true,
 	"extends": "airbnb",
 	"env": {
@@ -17,13 +17,7 @@
 	},
 	"rules": {
 		"comma-dangle": [ "error", "only-multiline" ],
-		"semi": [
-			2,
-			"never",
-			{
-				"beforeStatementContinuationChars": "always"
-			}
-		],
+		"semi": ["error", "always"],
 		"func-names": 0,
 		"eqeqeq": 0,
 		"no-plusplus": 0,
@@ -48,7 +42,8 @@
 			{
 				"code": 500
 			}
-		]
+		],
+		"no-return-assign": 0
 	},
 	"settings": {
 		"import/resolver": {
