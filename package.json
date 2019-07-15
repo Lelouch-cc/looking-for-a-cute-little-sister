@@ -1,0 +1,28 @@
+{
+  "name": "looking-for-a-cute-little-sister",
+  "version": "1.0.0",
+  "description": "使用ADB和Node.js训练抖音模型——寻找漂亮小姐姐",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lelouch-cc/looking-for-a-cute-little-sister.git"
+  },
+  "author": "yanghongwei <342908400@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lelouch-cc/looking-for-a-cute-little-sister/issues"
+  },
+  "homepage": "https://github.com/Lelouch-cc/looking-for-a-cute-little-sister#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "base64-img": "^1.0.4",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  }
+}
